@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>testing</description>
+   <name>MyOptionsTest</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>0</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'qConnect - Sample Project','testCaseFolderMappeds':[],'id':81182}</value>
+         </entry>
+         <entry>
+            <key>1</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'Data Lab','testCaseFolderMappeds':[],'id':81420}</value>
+         </entry>
+         <entry>
+            <key>2</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'MyOptions','testCaseFolderMappeds':[],'id':81441}</value>
+         </entry>
+         <entry>
+            <key>3</key>
+            <value>{'testSuiteFolderMappeds':['Test Suites'],'name':'MyOptionsClone-POC','testCaseFolderMappeds':['Test Cases'],'id':84737}</value>
+         </entry>
+         <entry>
+            <key>4</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'NextGen Data Lab','testCaseFolderMappeds':[],'id':81681}</value>
+         </entry>
+      </properties>
+      <type>PROJECT</type>
+   </integratedEntity>
+   <UUID>ba36cf75-58f2-48dd-8763-271584c0959c</UUID>
+   <migratedVersion>5.9.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <type>GENERIC</type>
+</Project>

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 65.0,,2019-02-07 15:33:17,2019-02-07 15:33:26,9.356s,ERROR
+,,,,,,
+Test Cases/SignUp,Firefox 65.0,,2019-02-07 15:33:17,2019-02-07 15:33:25,8.363s,ERROR
+"openBrowser("""")",Firefox 65.0,,2019-02-07 15:33:17,2019-02-07 15:33:21,3.441s,PASSED
+"navigateToUrl(""https://development2.myoptions.org"")",Firefox 65.0,,2019-02-07 15:33:21,2019-02-07 15:33:22,1.085s,PASSED
+"click(findTestObject(""Object Repository/Page_myOptions/a_Sign Up""))",Firefox 65.0,,2019-02-07 15:33:22,2019-02-07 15:33:22,0.291s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_myOptions/input_First Name_first_name""), 100)",Firefox 65.0,Wait for SignUp modal to be present,2019-02-07 15:33:22,2019-02-07 15:33:22,0.030s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_First Name_first_name""), fname)",Firefox 65.0,,2019-02-07 15:33:22,2019-02-07 15:33:22,0.088s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Last Name_last_name""), lname)",Firefox 65.0,,2019-02-07 15:33:22,2019-02-07 15:33:22,0.059s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your email_email""), email)",Firefox 65.0,,2019-02-07 15:33:22,2019-02-07 15:33:23,0.074s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_myOptions/input_Create password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.103s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth""), ""01"")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_1""), ""0"")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.037s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_2""), ""01"")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.047s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_3""), ""01"")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.051s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_4""), ""1"")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.048s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_5""), ""19"")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.052s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_6""), ""199"")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.066s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_7""), ""1990"")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.058s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_8""), ""1990"")",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:23,0.045s,PASSED
+"click(findTestObject(""Object Repository/Page_myOptions/button_Join for Free""))",Firefox 65.0,,2019-02-07 15:33:23,2019-02-07 15:33:25,1.986s,PASSED
+url = getUrl(),Firefox 65.0,,2019-02-07 15:33:25,2019-02-07 15:33:25,0.018s,PASSED
+"if (url == ""https://development2.myoptions.org/auth/join?"")",Firefox 65.0,,2019-02-07 15:33:25,2019-02-07 15:33:25,0.346s,ERROR

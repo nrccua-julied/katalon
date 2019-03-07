@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="7" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="7" timestamp="2019-02-11 18:13:49" hostname="julie.dixon - LAPTOP1136.nrccua-hq.local" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Julie.Dixon\\Katalon Studio\\MyOptionsTest\\Reports\\New Test Suite\\20190211_181348"/>
+         <property name="logFiles" value="C:\\Users\\Julie.Dixon\\Katalon Studio\\MyOptionsTest\\Reports\\New Test Suite\\20190211_181348\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="julie.dixon - LAPTOP1136.nrccua-hq.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.3.1"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.1.224"/>
+         <property name="sessionId" value="508fb0d0-99c2-4bd9-a3d7-f7abc48dabaa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SignUp" classname="Test Cases/SignUp" status="PASSED">
+         <system-out><![CDATA[2019-02-11 18:13:49 - [TEST_CASE][PASSED] - Test Cases/SignUp: Test Cases/SignUp
+
+2019-02-11 18:13:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-11 18:13:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-11 18:13:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-11 18:13:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-11 18:13:53 - [TEST_STEP][PASSED] - navigateToUrl("https://development2.myoptions.org"): Navigate to 'https://development2.myoptions.org' successfully
+
+2019-02-11 18:13:54 - [MESSAGE][PASSED] - Navigate to 'https://development2.myoptions.org' successfully
+
+2019-02-11 18:13:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_myOptions/a_Sign Up")): Object: 'Object Repository/Page_myOptions/a_Sign Up' is clicked on
+
+2019-02-11 18:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_myOptions/a_Sign Up' is clicked on
+
+2019-02-11 18:13:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_myOptions/input_First Name_first_name"), 100): Object 'Object Repository/Page_myOptions/input_First Name_first_name' is present
+
+2019-02-11 18:13:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_myOptions/input_First Name_first_name' is present
+
+2019-02-11 18:13:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_First Name_first_name"), fname): Text 'fname1' is set on object 'Object Repository/Page_myOptions/input_First Name_first_name'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text 'fname1' is set on object 'Object Repository/Page_myOptions/input_First Name_first_name'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Last Name_last_name"), lname): Text 'lname1' is set on object 'Object Repository/Page_myOptions/input_Last Name_last_name'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text 'lname1' is set on object 'Object Repository/Page_myOptions/input_Last Name_last_name'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your email_email"), email): Text 'fladmittedly@admittedly.com1' is set on object 'Object Repository/Page_myOptions/input_Your email_email'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text 'fladmittedly@admittedly.com1' is set on object 'Object Repository/Page_myOptions/input_Your email_email'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_myOptions/input_Create password_password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_myOptions/input_Create password_password'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_myOptions/input_Create password_password'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your date of birth_birth"), "01"): Text '01' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text '01' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your date of birth_birth_1"), "0"): Text '0' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_1'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_1'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your date of birth_birth_2"), "01"): Text '01' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_2'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text '01' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_2'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your date of birth_birth_3"), "01"): Text '01' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_3'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text '01' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_3'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your date of birth_birth_4"), "1"): Text '1' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_4'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_4'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your date of birth_birth_5"), "19"): Text '19' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_5'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_5'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your date of birth_birth_6"), "199"): Text '199' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_6'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text '199' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_6'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your date of birth_birth_7"), "1990"): Text '1990' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_7'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text '1990' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_7'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_myOptions/input_Your date of birth_birth_8"), "1990"): Text '1990' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_8'
+
+2019-02-11 18:13:55 - [MESSAGE][PASSED] - Text '1990' is set on object 'Object Repository/Page_myOptions/input_Your date of birth_birth_8'
+
+2019-02-11 18:13:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_myOptions/button_Join for Free")): Object: 'Object Repository/Page_myOptions/button_Join for Free' is clicked on
+
+2019-02-11 18:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_myOptions/button_Join for Free' is clicked on
+
+2019-02-11 18:13:56 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://development2.myoptions.org/auth/join?'
+
+2019-02-11 18:13:56 - [MESSAGE][PASSED] - Current window's url is: 'https://development2.myoptions.org/auth/join?'
+
+2019-02-11 18:13:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_myOptions/div_First Name and Last Name m_1"), 30): Object 'Object Repository/Page_myOptions/div_First Name and Last Name m_1' is present
+
+2019-02-11 18:13:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_myOptions/div_First Name and Last Name m_1' is present
+
+2019-02-11 18:13:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_myOptions/div_First and Last Name Requir"), 30): Object 'Object Repository/Page_myOptions/div_First and Last Name Requir' is present
+
+2019-02-11 18:13:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_myOptions/div_First and Last Name Requir' is present
+
+2019-02-11 18:13:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_myOptions/div_Email is required"), 30): Object 'Object Repository/Page_myOptions/div_Email is required' is present
+
+2019-02-11 18:13:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_myOptions/div_Email is required' is present
+
+2019-02-11 18:13:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_myOptions/div_Password is required"), 30): Object 'Object Repository/Page_myOptions/div_Password is required' is present
+
+2019-02-11 18:13:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_myOptions/div_Password is required' is present
+
+2019-02-11 18:13:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_myOptions/div_Invalid date of birth."), 30): Object 'Object Repository/Page_myOptions/div_Invalid date of birth.' is present
+
+2019-02-11 18:13:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_myOptions/div_Invalid date of birth.' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-11 18:13:49 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/SignUp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

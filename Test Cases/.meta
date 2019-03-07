@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FolderEntity>
+   <description></description>
+   <name>Test Cases</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>0</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>MyOptionsClone-POC</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>0</value>
+         </entry>
+      </properties>
+      <type>FOLDER</type>
+   </integratedEntity>
+   <folderType>TESTCASE</folderType>
+</FolderEntity>

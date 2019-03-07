@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 71.0.3578.98,,2019-01-10 11:31:39,2019-01-10 11:31:49,9.919s,PASSED
+,,,,,,
+Test Cases/SignUp,Chrome 71.0.3578.98,,2019-01-10 11:31:40,2019-01-10 11:31:48,8.699s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-10 11:31:40,2019-01-10 11:31:44,3.888s,PASSED
+"navigateToUrl(""https://myoptions.org/"")",Chrome 71.0.3578.98,,2019-01-10 11:31:44,2019-01-10 11:31:45,1.084s,PASSED
+"click(findTestObject(""Object Repository/Page_myOptions/a_Sign Up""))",Chrome 71.0.3578.98,,2019-01-10 11:31:45,2019-01-10 11:31:45,0.226s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_myOptions/input_First Name_first_name""), 10)",Chrome 71.0.3578.98,Wait for SignUp modal to be present,2019-01-10 11:31:45,2019-01-10 11:31:45,0.074s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_First Name_first_name""), fname)",Chrome 71.0.3578.98,,2019-01-10 11:31:45,2019-01-10 11:31:46,0.370s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Last Name_last_name""), lname)",Chrome 71.0.3578.98,,2019-01-10 11:31:46,2019-01-10 11:31:46,0.245s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your email_email""), ""fladmittedly@admittedly.com"")",Chrome 71.0.3578.98,,2019-01-10 11:31:46,2019-01-10 11:31:46,0.348s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_myOptions/input_Create password_password""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 71.0.3578.98,,2019-01-10 11:31:46,2019-01-10 11:31:47,0.356s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth""), ""01"")",Chrome 71.0.3578.98,,2019-01-10 11:31:47,2019-01-10 11:31:47,0.219s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_1""), ""0"")",Chrome 71.0.3578.98,,2019-01-10 11:31:47,2019-01-10 11:31:47,0.207s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_2""), ""01"")",Chrome 71.0.3578.98,,2019-01-10 11:31:47,2019-01-10 11:31:47,0.151s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_3""), ""01"")",Chrome 71.0.3578.98,,2019-01-10 11:31:47,2019-01-10 11:31:47,0.134s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_4""), ""1"")",Chrome 71.0.3578.98,,2019-01-10 11:31:47,2019-01-10 11:31:48,0.185s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_5""), ""19"")",Chrome 71.0.3578.98,,2019-01-10 11:31:48,2019-01-10 11:31:48,0.133s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_6""), ""199"")",Chrome 71.0.3578.98,,2019-01-10 11:31:48,2019-01-10 11:31:48,0.130s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_7""), ""1990"")",Chrome 71.0.3578.98,,2019-01-10 11:31:48,2019-01-10 11:31:48,0.133s,PASSED
+"setText(findTestObject(""Object Repository/Page_myOptions/input_Your date of birth_birth_8""), ""1990"")",Chrome 71.0.3578.98,,2019-01-10 11:31:48,2019-01-10 11:31:48,0.143s,PASSED
+"click(findTestObject(""Object Repository/Page_myOptions/button_Join for Free""))",Chrome 71.0.3578.98,,2019-01-10 11:31:48,2019-01-10 11:31:48,0.132s,PASSED
