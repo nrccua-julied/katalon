@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MO004_SignUpW_Parent</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>24339735</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>TC4_SignUp_Web - Parent</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5403798</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-251</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>31676492</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>6034517b-2f8a-4bff-9114-fc89da34ba31</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login')</defaultValue>
+      <description></description>
+      <id>97b999a3-aa97-478f-8873-c93fa3f94d26</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login')</defaultValue>
+      <description></description>
+      <id>b68052f7-fa65-4b51-9e4f-28f76601123b</id>
+      <masked>false</masked>
+      <name>lname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login')</defaultValue>
+      <description></description>
+      <id>5b6c7189-1a08-48bb-91f8-64d8c43c98be</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

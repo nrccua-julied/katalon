@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MO003_SignUpW_AdultLearner</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>24339734</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>TC3_SignUp_Web - Adult Learner</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5403798</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-250</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>31676491</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>9deb5525-8bef-4a79-ad2a-0bda20515ea3</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login')</defaultValue>
+      <description></description>
+      <id>13a6bb62-29ae-4c5c-8515-36f685b4c388</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login')</defaultValue>
+      <description></description>
+      <id>db68a69b-2541-4c44-b09b-eab02c392182</id>
+      <masked>false</masked>
+      <name>lname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login')</defaultValue>
+      <description></description>
+      <id>16985a27-27e0-4210-b950-294581a1caa1</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

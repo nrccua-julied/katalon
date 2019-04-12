@@ -14,33 +14,24 @@
       <guid>15cdd6cc-c3d0-4d4e-a679-7a5963644662</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>ee7a3839-02f0-485e-ae8f-a519b782db63</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-1</value>
-         </iterationEntity>
-         <testDataId>Data Files/Login</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/SignUp/MO001_SignUpW_HighSchoolStudent</testCaseId>
       <variableLink>
-         <testDataLinkId>ee7a3839-02f0-485e-ae8f-a519b782db63</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>fname</value>
-         <variableId>3cdae429-a563-4381-9f3d-2eccd45299c7</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>10d2c0aa-1de1-4f32-b276-7d6645387412</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ee7a3839-02f0-485e-ae8f-a519b782db63</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>lname</value>
-         <variableId>7680b966-d282-4505-b8cb-c7cabed43a65</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3c2b3cb1-ea73-4cc8-94a5-d6a405aa4960</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ee7a3839-02f0-485e-ae8f-a519b782db63</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>email</value>
-         <variableId>50a46791-646e-454c-aefd-8b218eba03b3</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4f5d5242-4b2e-420e-8402-b35157fd395d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

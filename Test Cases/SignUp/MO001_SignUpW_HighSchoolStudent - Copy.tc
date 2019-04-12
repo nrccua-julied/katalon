@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MO001_SignUpW_HighSchoolStudent - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86376ad4-7232-4b09-af39-d1cb5c8008d2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login')</defaultValue>
+      <description></description>
+      <id>7e8b231b-c9bd-4050-99c0-6af4c29a7acc</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login')</defaultValue>
+      <description></description>
+      <id>f886584e-e1d1-4c4a-bc27-3a3550f816ba</id>
+      <masked>false</masked>
+      <name>lname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login')</defaultValue>
+      <description></description>
+      <id>692c0cbe-8d49-4faf-9f74-3cc4b3a2690d</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

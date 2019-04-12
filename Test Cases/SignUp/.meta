@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FolderEntity>
-   <description></description>
-   <name>Test Cases</name>
+   <description>folder</description>
+   <name>SignUp</name>
    <tag></tag>
    <integratedEntity>
       <productName>qTest</productName>
       <properties>
          <entry>
             <key>id</key>
-            <value>5403794</value>
+            <value>5403798</value>
          </entry>
          <entry>
             <key>name</key>
-            <value>Katalon Automation</value>
+            <value>SignUp</value>
          </entry>
          <entry>
             <key>parentId</key>
-            <value>0</value>
+            <value>5403794</value>
          </entry>
       </properties>
       <type>FOLDER</type>

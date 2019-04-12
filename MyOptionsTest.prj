@@ -20,11 +20,23 @@
          </entry>
          <entry>
             <key>3</key>
-            <value>{'testSuiteFolderMappeds':['Test Suites'],'name':'MyOptionsClone-POC','testCaseFolderMappeds':['Test Cases'],'id':84737}</value>
+            <value>{'testSuiteFolderMappeds':[],'name':'MyOptionsClone-POC','testCaseFolderMappeds':[],'id':84737}</value>
          </entry>
          <entry>
             <key>4</key>
             <value>{'testSuiteFolderMappeds':[],'name':'NextGen Data Lab','testCaseFolderMappeds':[],'id':81681}</value>
+         </entry>
+         <entry>
+            <key>5</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'Data Lab - ALPHA','testCaseFolderMappeds':[],'id':81420}</value>
+         </entry>
+         <entry>
+            <key>6</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'Data Lab - BRAVO','testCaseFolderMappeds':[],'id':85157}</value>
+         </entry>
+         <entry>
+            <key>7</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'MyOptions-ALPHA','testCaseFolderMappeds':['Test Cases'],'id':84737}</value>
          </entry>
       </properties>
       <type>PROJECT</type>
